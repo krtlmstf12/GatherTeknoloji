@@ -398,19 +398,14 @@ section { padding: 105px 0; }
 }
 
 .app-icon {
-  width: 47px;
-  height: 47px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  color: #fff;
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #fff;
   box-shadow: 0 8px 20px #11182714;
 }
-
-.app-icon svg { width: 27px; height: 27px; }
-
-.chargeroute-icon { background: linear-gradient(145deg, #153e3b, #1b8d79); }
-.news-icon { background: linear-gradient(145deg, #243b9e, #6385ff); }
 
 .product-name {
   font-size: 19px;
