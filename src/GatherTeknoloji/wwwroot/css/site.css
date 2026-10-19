@@ -57,33 +57,12 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 11px;
-  font-weight: 750;
-  letter-spacing: -.045em;
-  font-size: 19px;
 }
 
-.brand-mark {
-  width: 33px;
-  height: 33px;
-  border-radius: 10px;
-  background: var(--ink);
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-size: 17px;
-  letter-spacing: -.08em;
-}
-
-.brand small {
-  font-size: 10px;
+.brand-logo {
   display: block;
-  color: #77818c;
-  font-weight: 650;
-  letter-spacing: .15em;
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin-top: 2px;
+  height: 36px;
+  width: auto;
 }
 
 .navlinks {
@@ -705,7 +684,7 @@ footer {
 @media (max-width: 620px) {
   .wrap { width: min(var(--max), calc(100% - 34px)); }
   header { height: 68px; }
-  .brand { font-size: 17px; }
+  .brand-logo { height: 30px; }
 
   .navlinks {
     display: none;
